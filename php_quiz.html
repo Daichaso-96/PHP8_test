@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PHP8初級技術者試験 模擬問題</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>PHP8初級技術者試験 模擬問題</h1>
+
+      <div id="examScreen">
+        <div class="progress-bar">
+          <div class="progress-fill" id="progressBar"></div>
+        </div>
+
+        <div class="question-info">
+          <span id="questionNumber">問題 1/40</span>
+        </div>
+
+        <div class="question-card">
+          <div class="question-text" id="questionText"></div>
+          <div class="options" id="optionsContainer"></div>
+        </div>
+
+        <div class="button-container">
+          <button class="btn-answer" id="answerBtn">回答する</button>
+          <button class="btn-prev" id="prevBtn">前へ戻る</button>
+          <button class="btn-next" id="nextBtn">次へ進む</button>
+        </div>
+      </div>
+
+      <div id="resultScreen" style="display: none">
+        <div class="result-screen">
+          <h2>試験終了</h2>
+          <div class="score-display" id="finalScore"></div>
+          <div class="result-message" id="resultMessage"></div>
+          <button class="btn-restart" id="restartBtn">もう一度実施する</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <div class="modal-header" id="modalHeader"></div>
+        <div id="modalBody"></div>
+        <button class="close-modal" id="closeModal">閉じる</button>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
