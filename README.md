@@ -24,8 +24,9 @@ PHP8初級試験の学習を目的としたプログラムです。
 ---
 
 ## AI生成部分のファイル一覧 / Files Containing AI-Generated Code
-- `src/ai_generated_module.py`
-- `utils/ai_helper.py`
+- `php_quiz.html`
+- `style.css`
+- `script.js`
 
 ---
 
