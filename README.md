@@ -3,7 +3,8 @@
 
 
 # プロジェクト概要 / Project Overview
-一部のコードは、Anthropic社のAIモデル **Claude Opus 4.5** を使用して生成されています。
+PHP8初級試験の学習を目的としたプログラムです。
+※一部のコードは、Anthropic社のAIモデル **Claude Opus 4.5** を使用して生成されています。
 
 ---
 
